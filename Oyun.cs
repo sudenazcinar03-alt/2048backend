@@ -26,13 +26,13 @@
    
    public void Hareket(string komut)
    {
-       if (!GameOver) return;
-       
+       if (GameOver) return;
+
        bool moved = false;
-       if (komut == "left") moved = HareketSol();
-       else if (komut == "right") moved = HareketSag();
-       else if (komut == "up") moved = HareketYukari();
-       else if (komut == "down") moved = HareketAsagi();
+       if (komut == "sol") moved = HareketSol();
+       else if (komut == "sag") moved = HareketSag();
+       else if (komut == "yukari") moved = HareketYukari();
+       else if (komut == "asagi") moved = HareketAsagi();
 
        if (moved)
        {
@@ -82,14 +82,13 @@
        bool moved = false;
        for (int i = 0; i < 4; i++)
        {
-           int[] satır = new int[] { Tahta[i,3], Tahta[i,2], Tahta[i,1] , Tahta[i,0] };
+           int[] satır = new int[] { Tahta[i,0], Tahta[i,1], Tahta[i,2], Tahta[i,3] };
            int[] newSatır = Kaydır(satır);
            for (int j = 0; j < 4; j++)
            {
                if (Tahta[i,j] != newSatır[j]) moved = true;
                Tahta[i, j] = newSatır[j];
            }
-           Console.WriteLine("hareket sol girdi");
        }
        return moved;
    }
@@ -149,7 +148,7 @@
        {
            for (int j = 0; j < 4; j++)
            {
-               if (Tahta[i,j] != 0) emptyCells.Add((i,j));
+               if (Tahta[i,j] == 0) emptyCells.Add((i,j));
            }
        }
        if (emptyCells.Count == 0) return;
@@ -204,7 +203,7 @@
 
        return new
        {
-           tahta = tahtaArray,
+           board = tahtaArray,
            score = Score,
            gameOver = GameOver,
            won = Won
