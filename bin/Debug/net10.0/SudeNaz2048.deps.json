@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "SudeNaz2048/1.0.0": {
+        "runtime": {
+          "SudeNaz2048.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SudeNaz2048/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
