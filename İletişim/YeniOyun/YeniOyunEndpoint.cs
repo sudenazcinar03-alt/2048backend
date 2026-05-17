@@ -7,7 +7,7 @@ public static class YeniOyunEndpoint
 {
     public static void Map(WebApplication app)
     {
-        app.MapPost("/new", Handle);
+        app.MapPost("/yeni", Handle);
     }
 
     private static object Handle()

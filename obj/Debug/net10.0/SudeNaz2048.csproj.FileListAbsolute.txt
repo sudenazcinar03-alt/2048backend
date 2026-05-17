@@ -26,3 +26,4 @@ C:\Users\Game Garaj\OneDrive\Desktop\proje\oyun\2048backend\obj\Debug\net10.0\re
 C:\Users\Game Garaj\OneDrive\Desktop\proje\oyun\2048backend\obj\Debug\net10.0\SudeNaz2048.pdb
 C:\Users\Game Garaj\OneDrive\Desktop\proje\oyun\2048backend\obj\Debug\net10.0\SudeNaz2048.genruntimeconfig.cache
 C:\Users\Game Garaj\OneDrive\Desktop\proje\oyun\2048backend\obj\Debug\net10.0\ref\SudeNaz2048.dll
+C:\Users\Game Garaj\OneDrive\Desktop\proje\oyun\2048backend\obj\Debug\net10.0\SudeNaz2048.sourcelink.json
