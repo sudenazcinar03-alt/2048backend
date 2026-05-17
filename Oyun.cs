@@ -23,6 +23,7 @@
       AddRandom();
    }
 
+   
    public void Hareket(string komut)
    {
        if (!GameOver) return;
@@ -88,6 +89,7 @@
                if (Tahta[i,j] != newSatır[j]) moved = true;
                Tahta[i, j] = newSatır[j];
            }
+           Console.WriteLine("hareket sol girdi");
        }
        return moved;
    }

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SudeNaz2048")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+986612b8399bf60200fee6e70f91cb71e043cac8")]
 [assembly: System.Reflection.AssemblyProductAttribute("SudeNaz2048")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SudeNaz2048")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
